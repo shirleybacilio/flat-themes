@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+
+/* utilities */
+
+.bg-green {
+	background-color: #2ecc71;
+}
+
+.bg-grey {
+	background-color: #f5f5f5;
+	color: #34495e;
+}
+
+.bg-blue {
+	background-color: #34495e;
+}
+.bg-red{
+	background: #e74c3c;
+	color: white;
+}
+body {
+	color: #fff;
+}
+
+/* header */
+
+.navbar-inverse {
+	background-color: #34495e;
+	padding: 1%;
+}
+
+.navbar-nav {
+	margin: 10px;
+}
+
+.navbar-nav>li>a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+}
+
+.navbar-collapse li .active {
+	background-color: #2c3e50;
+}
+
+/* hero-image */
+
+.hero-image {
+	background: url(../images/slider/bg1.jpg) center no-repeat;
+	background-size: cover;
+	height: 655px;
+	margin: 6% 0 0;
+	padding: 300px 0;
+}
+
+/* bg-green */
+
+.bg-green {
+	padding: 5%;
+}
+
+.bg-green .icon {
+	margin: 3%;
+	padding: 2px 3px;
+	border-radius: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* latest */
+
+#latest{
+	color: black;
+}
+#latest .caja{
+	padding: 5%;
+}
+#latest .caja-slide{
+	padding: 5%;
+	margin-top: 4%;
+}
+
+/* TESTIMONIAL */
+
+#testimonial{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+#testimonial p{
+	font-size: 11px;
+}
+/* CONTACT US */
+
+.emerald{
+	background: #2ecc71;
+	padding: 7%;
+}
+.emerald ul{
+	margin: 5% 4%;
+	padding: 2%
+}
+.listas{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.latest-post{
+	font-size: 12px;
+}
+.latest-post img{
+	width: 150%;
+}
+.form1{
+	padding: 5%;
+}
+.form1 h4{
+	color: #2c3e50;
+	padding: 0%;
+}
+.maps{
+	padding: 3%;
+	margin: auto;
+}
+.pre-footer{
+	background: #34495e;
+}
+#basic-addon2{
+	background: #d9534f;
+	color: white;
+	border-color: #d9534f; 
+}
+
+/* CONTACT US */
+footer{
+	background: #253146;
+}
+footer p{
+	padding: 5%;
+}
+
+footer .button-up{
+	color: white;
+}
