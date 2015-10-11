@@ -28,10 +28,22 @@
 .bg-blue {
 	background-color: #34495e;
 }
+
 .bg-red{
 	background: #e74c3c;
 	color: white;
 }
+
+.mg-1 {
+	margin: 1% 0%;
+}
+
+.mb {
+	margin-bottom: 70px;
+}
+
+/* end utilities */
+
 body {
 	color: #fff;
 }
@@ -53,7 +65,7 @@ body {
   border-radius: 5px;
 }
 
-.navbar-collapse li .active {
+.active {
 	background-color: #2c3e50;
 }
 
@@ -70,38 +82,93 @@ body {
 /* bg-green */
 
 .bg-green {
-	padding: 5%;
+	padding: 50px;
+}
+
+.bg-green.services {
+	padding: 112px 0 50px;
+}
+
+.bg-green h2 {
+	margin-bottom: 0;
+}
+
+.bg-green a, .bg-green a:hover {
+	color: #fff;
+	text-decoration: none;
 }
 
 .bg-green .icon {
-	margin: 3%;
-	padding: 2px 3px;
+	width: 68px;
+	height: 68px;
+	padding: 13px 15px;
 	border-radius: 100%;
+	display: block;
 	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.bg-green .icon-facebook {
+	padding: 13px 25px;
+}
+
+.bg-green li {
+	display: inline-block;
+}
+
+.bg-green li p {
+	font-size: 0.9em;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-green li p span {
+	margin: 2%;
 }
 
 /* latest */
 
-#latest{
-	color: black;
-}
-#latest .caja{
+.bg-grey {
 	padding: 5%;
 }
-#latest .caja-slide{
-	padding: 5%;
-	margin-top: 4%;
+
+.bg-grey .btn {
+	border-radius: 0;
+	padding: 6px 10px;
+}
+
+.btn-left {
+	border-top-left-radius: 4px !important;
+	border-bottom-left-radius: 4px !important;
+}
+
+.btn-right {
+	border-top-right-radius: 4px !important;
+	border-bottom-right-radius: 4px !important;
+}
+
+.item {
+	width: 100%;
+	background-color: #fff;
+	padding: 7px 5px 1px;
+}
+
+.item h5 {
+	font-weight: 700;
+}
+
+.bg-grey .col-xs-4, .bg-grey .col-sm-6 {
+	margin: 4% 0%;
 }
 
 /* TESTIMONIAL */
 
 #testimonial{
-	padding-top: 3%;
-	padding-bottom: 3%;
+	padding: 5% 0;
 }
-#testimonial p{
-	font-size: 11px;
+
+#testimonial small {
+	color: #fff;
 }
+
 /* CONTACT US */
 
 .emerald{
@@ -116,9 +183,7 @@ body {
 	padding-top: 3%;
 	padding-bottom: 3%;
 }
-.latest-post{
-	font-size: 12px;
-}
+
 .latest-post img{
 	width: 150%;
 }
@@ -133,23 +198,47 @@ body {
 	padding: 3%;
 	margin: auto;
 }
-.pre-footer{
-	background: #34495e;
-}
 #basic-addon2{
 	background: #d9534f;
 	color: white;
 	border-color: #d9534f; 
 }
 
-/* CONTACT US */
-footer{
-	background: #253146;
-}
-footer p{
-	padding: 5%;
+/* PRE-FOOTER */
+
+#pre-footer, #pre-footer a {
+	color: #bdc3c7;
 }
 
-footer .button-up{
-	color: white;
+#pre-footer h4 {
+	color: #fff;
+}
+
+#pre-footer a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#pre-footer .row {
+	margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer {
+	padding: 3% 0;
+	color: #999;
+}
+
+footer a {
+	color: #999;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+footer i {
+	color: #fff;
 }
