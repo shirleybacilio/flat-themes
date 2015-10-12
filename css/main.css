@@ -18,6 +18,7 @@
 
 .bg-green {
 	background-color: #2ecc71;
+	color: #fff;
 }
 
 .bg-grey {
@@ -31,27 +32,23 @@
 
 .bg-red{
 	background: #e74c3c;
-	color: white;
+	color: #fff;
 }
-<<<<<<< HEAD
 
 .mg-1 {
 	margin: 1% 0%;
+}
+
+.mt {
+	margin: 20px 0 5px;
 }
 
 .mb {
 	margin-bottom: 70px;
 }
 
-/* end utilities */
-
-=======
 .mt-5{
 	margin-top: 5%;
-}
->>>>>>> d05addb6272edf37d57f44507dd91a05bbdeb496
-body {
-	color: #fff;
 }
 
 /* header */
@@ -83,6 +80,7 @@ body {
 	height: 655px;
 	margin: 6% 0 0;
 	padding: 300px 0;
+	color: #fff;
 }
 
 /* About Us */
@@ -126,19 +124,14 @@ body {
 	display: block;
 	background-color: rgba(0, 0, 0, 0.4);
 }
-<<<<<<< HEAD
 
 .bg-green .icon-facebook {
 	padding: 13px 25px;
 }
-=======
-/* latest */
->>>>>>> d05addb6272edf37d57f44507dd91a05bbdeb496
 
 .bg-green li {
 	display: inline-block;
 }
-<<<<<<< HEAD
 
 .bg-green li p {
 	font-size: 0.9em;
@@ -147,24 +140,12 @@ body {
 
 .bg-green li p span {
 	margin: 2%;
-=======
-.pre-footer{
-	font-size: 12px;
-	line-height: 1.5;
-}
-.pre-footer img{
-	padding-top: 10%;
-	width: 150%;
-}
-#latest .caja{
-	padding: 5%;
->>>>>>> d05addb6272edf37d57f44507dd91a05bbdeb496
 }
 
 /* latest */
 
 .bg-grey {
-	padding: 5%;
+	padding: 5% 0;
 }
 
 .bg-grey .btn {
@@ -196,6 +177,10 @@ body {
 	margin: 4% 0%;
 }
 
+#latest .caja{
+	padding: 5%;
+}
+
 /* TESTIMONIAL */
 
 #testimonial{
@@ -219,10 +204,6 @@ body {
 .listas{
 	padding-top: 3%;
 	padding-bottom: 3%;
-}
-
-.latest-post img{
-	width: 150%;
 }
 .form1{
 	padding: 5%;
