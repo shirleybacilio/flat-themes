@@ -10,6 +10,9 @@ jQuery(function ($) {
         });
     });
     
+//fade
+
+
 //scroll
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -19,8 +22,8 @@ $(function() {
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
-            }, 1000);
-                    return false;
+          }, 1000);
+              return false;
       }
     }
   });
@@ -45,3 +48,4 @@ $(function() {
         }, 500);
     });
 });
+

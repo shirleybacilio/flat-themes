@@ -22,7 +22,17 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
   </head>
   <body>
-    <!-- Inserte código aqui -->
+  <script language='javascript' type='text/javascript'>
+var arriba;
+function subir() {
+if (document.body.scrollTop != 0 || document.documentElement.scrollTop != 0) {
+window.scrollBy(0, -15);
+arriba = setTimeout('subir()', 10);
+}
+else clearTimeout(arriba);
+}
+</script>
+
   <header>
     <nav class="navbar navbar-inverse navbar-fixed-top text-uppercase">
       <div class="container">
@@ -70,45 +80,48 @@
       </div>
     </div>
   </section>
-  <section class="bg-green">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4 mg-1">
-          <div class="media">
-            <div class="pull-left">
-              <a href="#"><i class="icon icon-3x icon-twitter"></i></a>
-            </div>
-            <div class="media-body">
-              <h3 class="media-heading">Twitter Marketing</h3>
-              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 mg-1">
-          <div class="media">
-            <div class="pull-left">
-            <a href="#"><i class="icon icon-3x icon-facebook"></i></a>
-            </div>
-            <div class="media-body">
-              <h3 class="media-heading">Facebook Marketing</h3>
-              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 mg-1">
+  <div id="clickme">
+    <section class="bg-green">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 mg-1">
             <div class="media">
-            <div class="pull-left">
-              <a href="#"><i class="icon icon-3x icon-google-plus"></i></a>
+              <div class="pull-left">
+                <a href="#"><i class="icon icon-3x icon-twitter"></i></a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Twitter Marketing</h3>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+              </div>
             </div>
-            <div class="media-body">
-              <h3 class="media-heading">Google Plus Marketing Marketing</h3>
-              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+          </div>
+          <div class="col-sm-4 mg-1">
+            <div class="media">
+              <div class="pull-left">
+              <a href="#"><i class="icon icon-3x icon-facebook"></i></a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Facebook Marketing</h3>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mg-1">
+              <div class="media">
+              <div class="pull-left">
+                <a href="#"><i class="icon icon-3x icon-google-plus"></i></a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Google Plus Marketing Marketing</h3>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+</div>
+  
   <section id="latest" class="bg-grey">
     <div class="container">
       <div class="row">
@@ -291,7 +304,7 @@
               <a href="faq.html">Contact Us</a>
             </li>
             <li>
-              <a href="#">
+              <a class="button-up" onclick='subir();return false' title='Ir Arriba' href="#">
                 <i class="icon-chevron-up"></i>
               </a>
             </li>
