@@ -18,7 +18,6 @@ p {
 	margin: 0;
 }
 
-
 /* utilities */
 
 .lh {
@@ -315,7 +314,7 @@ a.input-group-addon:hover {
 	text-decoration: none;
 }
 
-#blog small {
+.status small {
 	color: #999;
 	margin: 0 1% 0 0;
 }
@@ -352,12 +351,23 @@ span.btn.btn-xs.btn-primary {
 
 /* blog-item */
 
-a.icon-repeat {
+a.icon-repeat, .media-heading small {
 	color: #34495e;
 }
 
 a.icon-repeat:hover {
 	text-decoration: none;
+}
+
+.well {
+	box-shadow: none;
+	border: none;
+}
+
+button.btn.btn-danger {
+	border-radius: 6px;
+	padding: 10px;
+	margin: 20px 0;
 }
 
 /* contact-us */

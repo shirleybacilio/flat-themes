@@ -320,7 +320,7 @@
                 <a href="about-us.html">About Us</a>
               </li>
               <li>
-                <a href="faq.html">Contact Us</a>
+                <a href="contact-us.html">Contact Us</a>
               </li>
               <li>
                <a class="button-up" onclick='subir();return false' title='Ir Arriba' href="#">
@@ -333,6 +333,16 @@
       </div>
     </footer>
 
+    <script language='javascript' type='text/javascript'>    
+      var arriba;
+      function subir() {
+      if (document.body.scrollTop != 0 || document.documentElement.scrollTop != 0) {
+      window.scrollBy(0, -15);
+      arriba = setTimeout('subir()', 10);
+      }
+      else clearTimeout(arriba);
+      }
+    </script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
